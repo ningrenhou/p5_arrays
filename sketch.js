@@ -18,14 +18,14 @@ function draw () {
             colour: color(random('#000000')),
 
             draw: function() {
-            noStroke();
-            fill(this.colour); 
             text(this.words,this.x,this.y); 
-            this.update(); 
+            fill(this.colour); 
+            noStroke();
+            this.text(); 
             },
 
-            update: function () {
-                this.x += this.speed;
+            text: function () {
+            this.x += this.speed;
             }
         };
         words.push(zayne);
