@@ -1,7 +1,7 @@
 var words = [];
 var createwords = ["Zayne","🍐","❄️","黎深"];
 
-function createEmbers(x,y){
+function createzayne(x,y){
     var originx = x;
     var originy = y;
 }
